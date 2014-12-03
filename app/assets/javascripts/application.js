@@ -15,3 +15,12 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+$(function(){
+
+  $('.carousel').carousel({
+  interval: 3000
+  });
+
+
+});
