@@ -1,0 +1,45 @@
+// SASS VARIABLES
+
+$btn-default-bg: pink;
+
+// BOOTSTRAP IMPORT
+@import "bootstrap";
+
+$font1: 'Vollkorn', serif;
+$font2: 'Rototo' sans-serif;
+
+// OWN STYLES
+
+body {
+  color: black;
+}
+
+.landingpage {
+  text-align: center;
+
+  h1 {
+    font-family: $font1;
+    font-size: 60px;
+    letter-spacing: 0.05em;
+    margin: 100px auto -27px auto;
+
+  }
+
+  h2 {
+    font-family: $font2;
+    font-size: 25px;
+    color: white;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin: 500px 0px 0px 0px;
+  }
+
+}
+
+.subline {
+  background-image: url(https://s3-us-west-2.amazonaws.com/formovingservice/bg/fms_bg2.jpg);
+  background-size: cover;
+  z-index: -1;
+  height: 560px;
+  position: relative;
+}
