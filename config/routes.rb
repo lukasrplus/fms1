@@ -5,6 +5,14 @@ Rails.application.routes.draw do
 
   get "/welcome" => "static_pages#welcome"
 
+  get "/menu" => 'static_pages#menu'
+
+  get "/philosophy" => 'static_pages#philosophy'
+
+  get '/arttransport' => 'static_pages#arttransport'
+
+  get 'cartransport' => 'static_pages#cartransport'
+
   root :to => 'static_pages#welcome'
 
 
