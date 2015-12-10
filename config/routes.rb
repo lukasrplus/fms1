@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
 
 
+  get 'messages/new_mail'
+
   get 'static_pages/welcome'
 
   get "/welcome" => "static_pages#welcome"
@@ -18,6 +20,8 @@ Rails.application.routes.draw do
   get '/contact' => "static_pages#contact"
 
   root :to => 'static_pages#welcome'
+
+  post 'new_email' => 'messages#new_email', as: 'new_email'
 
 
 

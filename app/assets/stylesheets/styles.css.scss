@@ -75,7 +75,15 @@ a:hover {
 
   .menu {
 
-      margin-top: 220px;
+      margin-top: 160px;
+
+      a {
+        color: grey;
+      }
+
+      a:hover {
+        color: pink;
+      }
 
       ul {
         list-style-type: none;
@@ -154,4 +162,11 @@ a:hover {
   margin-top: 90px;
 }
 
+form {
+  text-align: left;
+}
+
+.send_button {
+  text-align: center;
+}
 
