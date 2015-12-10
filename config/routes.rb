@@ -13,6 +13,8 @@ Rails.application.routes.draw do
 
   get 'cartransport' => 'static_pages#cartransport'
 
+  get 'friends' => 'static_pages#friends'
+
   root :to => 'static_pages#welcome'
 
 

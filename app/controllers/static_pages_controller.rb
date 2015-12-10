@@ -14,4 +14,7 @@ class StaticPagesController < ApplicationController
   def cartransport
   end
 
+  def friends
+  end
+
 end
