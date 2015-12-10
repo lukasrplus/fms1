@@ -11,9 +11,11 @@ Rails.application.routes.draw do
 
   get '/arttransport' => 'static_pages#arttransport'
 
-  get 'cartransport' => 'static_pages#cartransport'
+  get '/cartransport' => 'static_pages#cartransport'
 
-  get 'friends' => 'static_pages#friends'
+  get '/friends' => 'static_pages#friends'
+
+  get '/contact' => "static_pages#contact"
 
   root :to => 'static_pages#welcome'
 
