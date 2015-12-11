@@ -10,6 +10,11 @@ $font2: 'Rototo' sans-serif;
 
 // OWN STYLES
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
   color: black;
   background-color: white;
@@ -85,7 +90,7 @@ a:hover {
         font-size: 15px;
         font-weight: 700;
         color: white;
-        margin: 20px 0px;
+        margin: 0px 0px;
         background-color: rgba(0,0,0,0.7);
         padding: 20px;
        }
@@ -215,6 +220,7 @@ a:hover {
   margin-top: 90px;
       @media screen and (max-width: 500px) {
         margin-top: 30px;
+
        }
 }
 
@@ -257,6 +263,32 @@ form {
   padding: 20px;
         @media screen and (min-width: 500px) {
         display: none;
+       }
+}
+
+.mobile_menu_button {
+  width: 100%;
+  margin: 5px 0px;
+  padding: 20px;
+          font-size: 15px;
+        font-weight: 700;
+        color: white;
+  @media screen and (min-width: 500px) {
+        display: none;
+       }
+
+}
+
+.philo_padding {
+  padding-top: 50px;
+    @media screen and (max-width: 500px) {
+        padding-top: 0px;
+       }
+}
+
+.philo_p {
+      @media screen and (max-width: 500px) {
+        margin-top: 20px;
        }
 }
 
