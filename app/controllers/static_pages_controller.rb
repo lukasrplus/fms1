@@ -17,4 +17,7 @@ class StaticPagesController < ApplicationController
   def friends
   end
 
+  def rental
+  end
+
 end

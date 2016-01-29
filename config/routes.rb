@@ -11,6 +11,8 @@ Rails.application.routes.draw do
 
   get "/philosophy" => 'static_pages#philosophy'
 
+  get "/rental" => 'static_pages#rental'
+
   get '/arttransport' => 'static_pages#arttransport'
 
   get '/cartransport' => 'static_pages#cartransport'
